@@ -1,0 +1,151 @@
+{
+    "author": "Steveway",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "showtime",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "ShowTime",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "status",
+            "twtext",
+            "twdate",
+            "offset",
+            "updateinterval",
+            "bgcolor",
+            "ready",
+            "NETDL_DATA",
+            "NETDL_BEGIN",
+            "NETDL_END",
+            "NETDL_CHUNK_SIZE",
+            "NETDL_URL",
+            "rotate",
+            "opentwitch"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/online_c.png",
+                    "name": "online_c",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/VGA-Font.ttf",
+                    "name": "vgafont40",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[\u25b6\u25b7]",
+                    "file": "fonts/Minecraftia-Regular.ttf",
+                    "name": "livefont18",
+                    "trackingAdjust": 2,
+                    "type": "font"
+                },
+                {
+                    "file": "images/default.png",
+                    "name": "twdefault",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Turbopebble.png",
+                    "name": "turbobuddy",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/turbobuddylogo.png",
+                    "name": "turbologo",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0color.png",
+                    "name": "BATT_COLOR",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Bluetooth_Colornew.png",
+                    "name": "BLTH_COLOR",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Battery Sheet-1-0bwnew.png",
+                    "name": "BATT_BAW",
+                    "targetPlatforms": null,
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/Bluetooth_BaWnew1.png",
+                    "name": "BLTH_BAW",
+                    "targetPlatforms": null,
+                    "type": "png-trans"
+                },
+                {
+                    "file": "images/bwork.png",
+                    "name": "bwork",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/bworkinv.png",
+                    "name": "bwork_inv",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/offline_c.png",
+                    "name": "offline_c",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/online_bw.png",
+                    "name": "online_bw",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/offline_bw.png",
+                    "name": "offline_bw",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "characterRegex": "[)#\"]",
+                    "file": "fonts/unicons.ttf",
+                    "name": "unicons_14",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/menuicon.png",
+                    "menuIcon": true,
+                    "name": "MENUICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "2f1d8a0a-74de-4661-a1a0-2001247bfaf4",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "5.6.0"
+}
